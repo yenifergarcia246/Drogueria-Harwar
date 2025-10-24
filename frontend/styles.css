@@ -1,0 +1,5 @@
+body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background: #f8f9fb; }
+.hero { background: linear-gradient(90deg, rgba(14,48,85,0.9), rgba(37,99,235,0.8)); color: white; border-bottom: 1px solid rgba(0,0,0,0.05); }
+.card img { height: 220px; object-fit: cover; border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; }
+footer { background:#0f1724; color:#cbd5e1; }
+.icon { font-size: 28px; }

@@ -1,0 +1,69 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Demo Admin",
+      "email": "admin@drogueria.local",
+      "passwordHash": "",
+      "phone": "+57 3000000000"
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "title": "Paracetamol 500mg",
+      "description": "Analgesico y antipiretico. Caja con 20 tabletas.",
+      "price": 12.5,
+      "category": "Medicamentos",
+      "image": "https://via.placeholder.com/600x400?text=Paracetamol+500mg",
+      "prescription": false
+    },
+    {
+      "id": "p2",
+      "title": "Vitamina C 1000mg",
+      "description": "Suplemento vitam\u00ednico. Frasco con 60 tabletas.",
+      "price": 24.9,
+      "category": "Vitaminas y Suplementos",
+      "image": "https://via.placeholder.com/600x400?text=Vitamina+C+1000mg",
+      "prescription": false
+    },
+    {
+      "id": "p3",
+      "title": "Crema Hidratante Facial",
+      "description": "Crema hidratante para todo tipo de piel. 50ml.",
+      "price": 35.8,
+      "category": "Cuidado Personal",
+      "image": "https://via.placeholder.com/600x400?text=Crema+Facial",
+      "prescription": false
+    },
+    {
+      "id": "p4",
+      "title": "Term\u00f3metro Digital",
+      "description": "Term\u00f3metro digital de precisi\u00f3n con pantalla LCD.",
+      "price": 45.0,
+      "category": "Primeros Auxilios",
+      "image": "https://via.placeholder.com/600x400?text=Termometro+Digital",
+      "prescription": false
+    },
+    {
+      "id": "p5",
+      "title": "Pa\u00f1ales Premium Talla M",
+      "description": "Pa\u00f1ales ultra absorbentes. Paquete de 36 unidades.",
+      "price": 28.95,
+      "category": "Beb\u00e9s y Ni\u00f1os",
+      "image": "https://via.placeholder.com/600x400?text=Pa\u00f1ales+Talla+M",
+      "prescription": false
+    },
+    {
+      "id": "p6",
+      "title": "Ibuprofeno 400mg",
+      "description": "Antiinflamatorio no esteroideo. Caja con 24 c\u00e1psulas.",
+      "price": 15.75,
+      "category": "Medicamentos",
+      "image": "https://via.placeholder.com/600x400?text=Ibuprofeno+400mg",
+      "prescription": true
+    }
+  ],
+  "orders": [],
+  "contacts": []
+}

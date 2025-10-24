@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contacto - Droguería RG</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Droguería RG</a>
+    </div>
+  </nav>
+
+  <main class="py-5">
+    <div class="container">
+      <h3>Contáctanos</h3>
+      <p class="text-muted">Estamos aquí para ayudarte. Visítanos, llámanos o escríbenos.</p>
+      <div class="row">
+        <div class="col-md-6">
+          <h6>Dirección</h6>
+          <p class="small">Av. Principal 123, Centro Médico<br>Ciudad de México, CP 12345</p>
+          <h6>Teléfono</h6>
+          <p class="small">+52 55 1234 5678</p>
+          <h6>Horarios</h6>
+          <p class="small">Lunes a Viernes: 7:00 AM - 10:00 PM</p>
+        </div>
+        <div class="col-md-6">
+          <div class="card p-3 shadow-sm">
+            <h6>Envíanos un mensaje</h6>
+            <form id="contactForm">
+              <div class="mb-2"><input id="contactName" class="form-control" placeholder="Tu nombre completo" required></div>
+              <div class="mb-2"><input id="contactEmail" class="form-control" placeholder="Tu correo electrónico" required></div>
+              <div class="mb-2"><input id="contactPhone" class="form-control" placeholder="Tu teléfono (opcional)"></div>
+              <div class="mb-2"><textarea id="contactMessage" class="form-control" rows="4" placeholder="¿En qué podemos ayudarte?" required></textarea></div>
+              <button class="btn btn-primary">Enviar Mensaje</button>
+            </form>
+            <div id="contactMsg" class="mt-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
