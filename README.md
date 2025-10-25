@@ -71,6 +71,5 @@ drogueria-rg/
 - La clave JWT usada está en `backend/server.js` como `SECRET`. Cámbiala para proyectos reales.
 - Para desplegar en GitHub, sube la carpeta completa al repositorio (no olvides agregar `.gitignore` si añades `node_modules`).
 
----
+Versión 1.0 lista para producción.
 
-¡Listo! Si quieres que además cree un `Dockerfile` para backend o que convierta el frontend a una SPA con React, dímelo y lo agrego.
